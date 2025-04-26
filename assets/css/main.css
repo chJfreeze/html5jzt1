@@ -102,6 +102,11 @@ input, select, textarea {
 	h1 {
 		text-transform: lowercase;
 	}
+	
+	#logo img {
+		height: 100%;
+		width: auto;
+	}
 
 	h2 {
 		text-transform: lowercase;
@@ -1788,7 +1793,7 @@ input, select, textarea {
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
 				display: block;
-				height: 44px;
+				height: 73px;
 				left: 0;
 				position: fixed;
 				top: 0;
@@ -1801,7 +1806,7 @@ input, select, textarea {
 			}
 
 				#titleBar .title {
-					line-height: 44px;
+					line-height: 73px;
 				}
 
 				#titleBar .toggle {
