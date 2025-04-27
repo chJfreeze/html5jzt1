@@ -571,7 +571,7 @@
 				@include vendor('backface-visibility', 'hidden');
 				@include vendor('transition', 'transform #{_duration(navPanel)} ease');
 				display: block;
-				height: 44px;
+				height: 45px;
 				left: 0;
 				position: fixed;
 				top: 0;
@@ -583,7 +583,7 @@
 				background-color: #007294;
 
 				.title {
-					line-height: 44px;
+					line-height: 35px;
 				}
 
 				.toggle {
@@ -591,7 +591,7 @@
 					top: 0;
 					left: 0;
 					width: 80px;
-					height: 60px;
+					height: 45px;
 
 					&:after {
 						content: '';
