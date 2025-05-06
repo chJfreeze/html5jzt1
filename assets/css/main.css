@@ -6,6 +6,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* 全局样式重置
+-------------------------------------------
+* 基于Meyer's reset方案
+* 清除所有元素默认边距/内边距/边框
+* 统一字体继承和盒模型 */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -71,7 +76,12 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
+/* 基础文本样式
+-------------------------------------------
+* 主背景：#e3e9dc（浅绿背景色）
+* 文字色：#878e83（中性灰绿）
+* 主品牌色：#3464E4（标题蓝色）
+* 使用Ubuntu Condensed字体 */
 
 	html {
 		box-sizing: border-box;
@@ -175,8 +185,14 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-/* Container */
-
+/* 响应式布局容器
+-------------------------------------------
+* 基准宽度1200px（桌面端）
+* 支持4级断点：
+   1680px（大屏）
+   1280px（标准桌面）
+   980px（平板）
+   736px（手机） */
 	.container {
 		margin: 0 auto;
 		max-width: 100%;
@@ -215,8 +231,11 @@ input, select, textarea {
 
 		}
 
-/* Row */
-
+/* Flex网格系统
+-------------------------------------------
+* 支持12列响应式布局
+* 间距模式：gtr-25/50/150/200
+* 对齐方式：top/middle/bottom */
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1731,7 +1750,12 @@ input, select, textarea {
 
 	@media screen and (max-width: 980px) {
 
-		/* Basic */
+		/* 基础文本样式
+-------------------------------------------
+* 主背景：#e3e9dc（浅绿背景色）
+* 文字色：#878e83（中性灰绿）
+* 主品牌色：#3464E4（标题蓝色）
+* 使用Ubuntu Condensed字体 */
 
 			html, body {
 				overflow-x: hidden;
@@ -1918,7 +1942,12 @@ input, select, textarea {
 
 	@media screen and (max-width: 736px) {
 
-		/* Basic */
+		/* 基础文本样式
+-------------------------------------------
+* 主背景：#e3e9dc（浅绿背景色）
+* 文字色：#878e83（中性灰绿）
+* 主品牌色：#3464E4（标题蓝色）
+* 使用Ubuntu Condensed字体 */
 
 			body {
 				font-size: 13pt;
