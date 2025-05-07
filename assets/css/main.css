@@ -40,7 +40,9 @@ body {
 ol, ul {
 	list-style: none;
 }
-
+/* a h4 {
+	text-decoration: none;
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -166,7 +168,7 @@ input, select, textarea {
 
 	a {
 		color: #5d93a2;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover {
